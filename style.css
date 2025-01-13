@@ -1,0 +1,131 @@
+/* Estilo global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #1f2937;
+    background-color: #f9fafb;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Cabeçalho */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 40px;
+    border-bottom: 2px solid #e5e7eb;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #1f2937;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #3b82f6;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f3f4f6;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #1f2937;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #6b7280;
+    margin-bottom: 30px;
+}
+
+.hero .cta-buttons button {
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero .cta-buttons button:first-child {
+    background-color: #3b82f6;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+.hero .cta-buttons button:first-child:hover {
+    background-color: #2563eb;
+}
+
+.hero .cta-buttons button:last-child {
+    background-color: #10b981;
+    color: #ffffff;
+}
+
+.hero .cta-buttons button:last-child:hover {
+    background-color: #059669;
+}
+
+/* Etapas */
+.steps {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.steps .step {
+    flex: 1;
+    padding: 10px;
+}
+
+.steps .step h2 {
+    font-size: 24px;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+.steps .step p {
+    color: #6b7280;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1f2937;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
